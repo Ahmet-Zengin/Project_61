@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
     <script src="main.js"></script>
 </head>
 
@@ -20,6 +23,7 @@
         
     </ul>
 </div>
+<div class="container">
 <section id="Apps">
     <h1>Apps</h1>
     <div class="line">
@@ -29,20 +33,32 @@
     <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/YerZYdPs8ryYX7A4J1MceJe4OFzmdYopXoEQbeKHeNo/embed"></iframe>
     <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/OoQv1RrIViNa1aCxrihhl7kHqHvMMwQCdSp0tGPCAd4/embed"></iframe>
 </section>
-
-<section id="game">
-    <h1>Games</h1>
-    <div class="line">
-
-    </div>
-    <br>
-    <a href="https://studio.code.org/projects/gamelab/Pn7eAnaVZZzwYvbqZoEpsqX6ll6Wa5BdpmM4nyInBKg/edit" target="_blank">
-        <img src="cargame.png">
-    </a>
-    <a href="https://studio.code.org/projects/gamelab/dhzxgmFKS9RgUKyL4DxASfT_iIz_JAC3mxpALSZ3hGI/edit" target="_blank">
-        <img src="aliengame.png">
-    </a>
-</section>
+<h2>Click on the games to explore</h2>
+<h5>these games are built in game lab. Click on the games to play</h5>
+<div id="myCarousel" class="carousel slide">
+    <center>
+        <div class="carousel-inner">
+         <div class="item active">
+            <a href="https://studio.code.org/projects/gamelab/Pn7eAnaVZZzwYvbqZoEpsqX6ll6Wa5BdpmM4nyInBKg/edit" target="_blank">
+                <img src="cargame.png">
+            </a>
+            <p>car racing</p>
+         </div>
+         <div class="item">
+            <a href="https://studio.code.org/projects/gamelab/dhzxgmFKS9RgUKyL4DxASfT_iIz_JAC3mxpALSZ3hGI/edit" target="_blank">
+                <img src="aliengame.png">
+            </a>
+            <p>alien game</p>
+         </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </center>
+</div>
 <section id="chatbot">
     <h1>Chatbot</h1>
     <div class="line">
@@ -57,6 +73,7 @@
 </iframe>
 </section>
 </center>
+</div>
 </body>
 
 </html>
